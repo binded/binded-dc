@@ -1,0 +1,16 @@
+minio:
+  image: minio/minio
+  ports:
+    - "9000:9000"
+  environment:
+    - "MINIO_ACCESS_KEY=AKIAIOSFODNN7EXAMPLE"
+    - "MINIO_SECRET_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+    - "MINIO_ENABLE_FSMETA=true"
+postgres:
+  image: postgres:9.5
+  ports:
+    - "5432:5432"
+redis:
+  image: redis:3.0.7-alpine
+  ports:
+    - "6379:6379"
