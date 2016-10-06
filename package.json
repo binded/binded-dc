@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Shared development `docker-compose.yml` file for Blockai services.",
   "main": "index.js",
+  "bin": {
+    "blockai-dc": "./up.sh"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
