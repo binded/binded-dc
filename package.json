@@ -4,7 +4,7 @@
   "description": "Shared development `docker-compose.yml` file for Blockai services.",
   "main": "index.js",
   "bin": {
-    "blockai-dc": "./up.sh"
+    "blockai-dc": "./up.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
