@@ -1,5 +1,6 @@
 minio:
   image: minio/minio
+  command: server /export
   ports:
     - "9000:9000"
   environment:
