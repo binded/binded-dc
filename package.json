@@ -4,7 +4,7 @@
   "description": "Shared development `docker-compose.yml` file for Blockai services.",
   "main": "index.js",
   "bin": {
-    "blockai-dc": "./up.js"
+    "blockai-dc": "./blockai-dc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/blockai/blockai-dc/issues"
   },
-  "homepage": "https://github.com/blockai/blockai-dc#readme"
+  "homepage": "https://github.com/blockai/blockai-dc#readme",
+  "dependencies": {}
 }
