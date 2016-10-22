@@ -1,6 +1,6 @@
 {
   "name": "blockai-dc",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Shared development `docker-compose.yml` file for Blockai services.",
   "main": "index.js",
   "bin": {
